@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "-amazon-scrap-",
+  "version": "0.0.0",
+  "description": "Serverless amazon india scraper",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "miniflare --watch --debug",
+    "deploy": "wrangler publish"
+    
+  },
+  "author": "Nirmalya Mukherjee",
+  "license": "MIT",
+
+  "devDependencies": {
+  "wrangler": "2.12.0"
+
+  }
+  
+}
