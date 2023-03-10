@@ -29,7 +29,7 @@ async function handleRequest(request) {
         JSON.stringify(
           {
             /* Extra curricular activities */ alive: true,
-            repository_name: "amazon-scraper",
+            repository_name: "amazon-scrap",
             repository_description:
               "Serverless Amazon India Scraper with search and product API, made with Cloudflare worker",
             repository_url: "https://github.com/Nirmalya61/amazon-scrap",
