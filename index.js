@@ -28,6 +28,8 @@ async function handleRequest(request) {
       return new Response(
         JSON.stringify(
           {
+            <h1>Github</h1>
+            
             /* Extra curricular activities */ alive: true,
             repository_name: "amazon-scrap",
             repository_description:
