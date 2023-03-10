@@ -38,7 +38,7 @@ async function handleRequest(request) {
             made_by: "https://github.com/Nirmalya61",
             api_endpoints:
               "https://github.com/Nirmalya61/amazon-scrap#api-endpoint",
-                        <h1>Github</h1>,
+                       
 
           },
           null,
