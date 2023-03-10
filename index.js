@@ -28,16 +28,18 @@ async function handleRequest(request) {
       return new Response(
         JSON.stringify(
           {
-            <h1>Github</h1>
             
-            /* Extra curricular activities */ alive: true,
-            repository_name: "amazon-scrap",
+            /* Extra curricular activities */ 
+            alive: true,
+            repository_name:"amazon-scrap",
             repository_description:
               "Serverless Amazon India Scraper with search and product API, made with Cloudflare worker",
             repository_url: "https://github.com/Nirmalya61/amazon-scrap",
             made_by: "https://github.com/Nirmalya61",
             api_endpoints:
               "https://github.com/Nirmalya61/amazon-scrap#api-endpoint",
+                        <h1>Github</h1>,
+
           },
           null,
           2
