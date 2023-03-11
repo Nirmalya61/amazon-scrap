@@ -9,7 +9,7 @@ const header = (req_headers) => {
         "Your-IP": req_headers.get("cf-connecting-ip"),
         "Your-Country": req_headers.get("CF-IPCountry"),
         "Host": req_headers.get("host"),
-        "Made-By": atob('TmlybWFseWEgTXVraGVyamVlICwgaHR0cHM6Ly9naXRodWIuY29tL05pcm1hbHlhNjE=')
+        "Made-By": "Nirmalya Mukherjee"
     }
 }
 
